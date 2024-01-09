@@ -1,0 +1,18 @@
+.orders-container {
+ margin: 3%;
+}
+.orders-header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+td {
+    overflow:auto;
+    margin: 0%;
+}
+.order-link {
+    text-decoration: none;
+}
+.order-link:hover {
+    color: black;
+    background-color: gray;
+}

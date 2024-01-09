@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      .header {
+        text-align: center;
+      }
+      .mytable {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: gainsboro;
+        border-collapse: separate;
+        border-spacing: 20px;
+        padding-top: 3%;
+        padding-left: 3%;
+      }
+
+      th {
+        width: 50%;
+        text-align: left;
+        border: 1px solid grey;
+      }
+
+      tr {
+        border: 1px solid grey;
+      }
+
+      .logo {
+        width: 100%;
+        height: 20vh;
+      }
+
+      .logo-image {
+        height: 15vh;
+        width: 100%;
+      }
+      .footer {
+        margin-top: 10vh;
+        margin-left: 10%;
+      }
+      .signature {
+        width: 20%;
+        height: 10vh;
+      }
+      .table-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        class="logo-image"
+        src="C:\Users\hp i5\Documents\Your paragraph text.png"
+      />
+    </div>
+    <div class="header">
+      <h1>{companyName}</h1>
+      <span>{companyAddress}</span><br>
+      <span>{companyEmail}</span><br>
+      <span>{companyPhone}</span><br>
+     
+      <br/>
+      <br/>
+      <hr/>
+      <p>Dear {customerName} </p>
+      <p>Your order was received successfully. Below are the details of your order</p>
+    </div>
+    <div class="table-container">
+      <table class="mytable">
+        <thead>
+          <tr>
+            <th>Order Id</th>
+            <th>{Id}</th>
+          </tr>
+          <tr>
+            <th>Customer Name</th>
+            <th>{CustomerName}</th>
+          </tr>
+          <tr>
+            <th>Placed On</th>
+            <th>{PlacedOn}</th>
+          </tr>
+          <tr>
+            <th>Order Status</th>
+            <th>{OrderStatus}</th>
+          </tr>
+          <tr>
+            <th>Pick up Location</th>
+            <th>{PickUpLocation}</th>
+          </tr>
+          <tr>
+            <th>Payment Method</th>
+            <th>{PaymentMethod}</th>
+          </tr>
+          <tr>
+            <th>Shipping Method</th>
+            <th>{ShippingMethod}</th>
+          </tr>
+        </thead>
+      </table>
+
+    </div>
+    <div class="footer">
+      <div>
+        <p>Yours Sincerely</p>
+        <p>{name}</p>
+        <p>{companyName}</p>
+      </div>
+      <img
+        class="signature"
+        src="C:\Users\hp i5\Documents\HCS\Attachment\EMS\AutomatedEmail\automatedemailfrontend\public\th (2).jpg"
+      />
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+    <div>
+      <p>{companyName}-2023</p>
+    </div>
+  </body>
+</html>

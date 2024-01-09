@@ -1,0 +1,13 @@
+.invoice-container {
+    overflow: auto;
+    background-color: lightgrey;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+.invoice-header {
+    text-align: center;
+}
+.invoice-details-header {
+    text-align: center;
+    margin-bottom: 5vh;
+}
